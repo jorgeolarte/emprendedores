@@ -1,0 +1,31 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ical.marudot.com//iCal Event Maker
+X-WR-CALNAME:Finanzas para emprendedores
+CALSCALE:GREGORIAN
+BEGIN:VTIMEZONE
+TZID:America/Bogota
+TZURL:http://tzurl.org/zoneinfo-outlook/America/Bogota
+X-LIC-LOCATION:America/Bogota
+BEGIN:STANDARD
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0500
+TZNAME:-05
+DTSTART:19700101T000000
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTAMP:20190611T012243Z
+UID:20190611T012243Z-1848820576@marudot.com
+DTSTART;TZID=America/Bogota:20190619T180000
+DTEND;TZID=America/Bogota:20190619T213000
+SUMMARY:Finanzas para emprendedores
+URL:https%3A%2F%2Femprendedorescartago.com%2Ffinanzas-para-emprendedores
+LOCATION:Corporación de Estudios Tecnológicos del Norte del Valle
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Finanzas para emprendedores
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

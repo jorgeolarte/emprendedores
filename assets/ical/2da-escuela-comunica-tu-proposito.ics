@@ -1,0 +1,27 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ical.marudot.com//iCal Event Maker
+X-WR-CALNAME:Emprendedores Cartago
+CALSCALE:GREGORIAN
+BEGIN:VTIMEZONE
+TZID:America/Bogota
+TZURL:http://tzurl.org/zoneinfo-outlook/America/Bogota
+X-LIC-LOCATION:America/Bogota
+BEGIN:STANDARD
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0500
+TZNAME:-05
+DTSTART:19700101T000000
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTAMP:20190813T224523Z
+UID:20190813T224523Z-254153485@marudot.com
+DTSTART;TZID=America/Bogota:20190820T183000
+DTEND;TZID=America/Bogota:20190820T213000
+SUMMARY:2da Escuela - Comunica tu propósito para enamorar a tus clientes
+URL:https%3A%2F%2Femprendedorescartago.com%2F2da-escuela-comunica-tu-proposito-para-enamorar-a-tus-clientes
+DESCRIPTION:En la actualidad enamorar a tus clientes es una prioridad\, por esto te queremos invitar a nuestra segunda escuela de emprendedores: Comunica tu propósito para enamorar a tus clientes\; allí descubrirás tu propósito empresarial\, su importancia y como enamora a tus clientes.
+LOCATION:Cámara De Comercio De Cartago
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,32 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ical.marudot.com//iCal Event Maker
+X-WR-CALNAME:5to Networking - Tejiendo Relaciones De Valor
+CALSCALE:GREGORIAN
+BEGIN:VTIMEZONE
+TZID:America/Bogota
+TZURL:http://tzurl.org/zoneinfo-outlook/America/Bogota
+X-LIC-LOCATION:America/Bogota
+BEGIN:STANDARD
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0500
+TZNAME:-05
+DTSTART:19700101T000000
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTAMP:20190708T200447Z
+UID:20190708T200447Z-1710420314@marudot.com
+DTSTART;TZID=America/Bogota:20190716T183000
+DTEND;TZID=America/Bogota:20190716T213000
+SUMMARY:5to Networking - Tejiendo Relaciones De Valor
+URL:https%3A%2F%2Femprendedorescartago.com%2F5to-networking-tejiendo-relaciones-de-valor
+DESCRIPTION: Te invitamos a que juntos bordemos nuestros sueños en el lienzo Cartagueño y mostremos nuestro emprendimiento al mundo. Registrate en nuestro 5to Networking “Tejiendo relaciones de valor” de emprendedores Cartago\, donde podrás conocer nuevas experiencias\, conectarte con otros emprendedores y sentirte orgulloso de tus raíces.
+LOCATION:Galería de Arte\, Frixio\, Carrera 4ta Nro 1A-72\, Cartago\, Valle del Cauca
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:5to Networking - Tejiendo Relaciones De Valor
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

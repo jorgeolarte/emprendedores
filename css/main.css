@@ -1,0 +1,95 @@
+.admin {
+    padding-top: 50px;
+}
+
+.signin {
+    background-image: url('../img/IMG_8980.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.pricing hr {
+    margin: 1.5rem 0;
+}
+
+.pricing .card-price {
+    font-size: 3rem;
+    margin: 0;
+}
+
+.pricing .card-price .period {
+    font-size: 0.8rem;
+}
+
+.pricing ul li {
+    margin-bottom: 1rem;
+}
+
+.pricing .text-muted {
+    opacity: 0.7;
+}
+
+.pricing .btn {
+    opacity: 0.7;
+    transition: all 0.2s;
+}
+
+/* Hover Effects on Card */
+
+@media (min-width: 992px) {
+    .pricing .card:hover .btn {
+        opacity: 1;
+    }
+}
+
+.whatsapp {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 40px;
+    background-color: #25d366;
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    z-index: 100;
+}
+
+.whatsapp-icon {
+    margin-top: 13px;
+}
+
+.bg {
+    background: url(../img/IMG_8980.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.bg-inscripcion {
+    padding: 75px 30px 60px;
+    background: linear-gradient(to top, rgba(7, 94, 84, 0.8), rgba(7, 94, 84, 0.8)), url(../img/IMG_8980.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+    background-attachment: fixed;
+}
+
+[data-toggle="collapse"] .fa:before {
+    content: "\f105";
+    display: inline-block;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    transform: rotate(90deg);
+    transition: all linear 0.25s;
+}
+
+[data-toggle="collapse"].collapsed .fa:before {
+    content: "\f105";
+    transform: rotate(0deg);
+}
